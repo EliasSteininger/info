@@ -352,9 +352,63 @@
 
           <ul class="skills-list content-card">
 
+              <ul class="filter-list">
+
+                  <li class="filter-item">
+                      <button class="active" data-filter-btn>Alle</button>
+                  </li>
+
+                  <li class="filter-item">
+                      <button data-filter-btn>Sprachen</button>
+                  </li>
+
+                  <li class="filter-item">
+                      <button data-filter-btn>Programmier Sprachen</button>
+                  </li>
+
+                  <li class="filter-item">
+                      <button data-filter-btn>Programme</button>
+                  </li>
+
+              </ul>
+
+              <div class="filter-select-box">
+
+                  <button class="filter-select" data-select>
+
+                      <div class="select-value" data-selecct-value>Filter</div>
+
+                      <div class="select-icon">
+                          <ion-icon name="chevron-down"></ion-icon>
+                      </div>
+
+                  </button>
+
+                  <ul class="select-list">
+
+                      <li class="select-item">
+                          <button data-select-item>Alle</button>
+                      </li>
+
+                      <li class="select-item">
+                          <button data-select-item>Sprachen</button>
+                      </li>
+
+                      <li class="select-item">
+                          <button data-select-item>Programmier Sprachen</button>
+                      </li>
+
+                      <li class="select-item">
+                          <button data-select-item>Programme</button>
+                      </li>
+
+                  </ul>
+
+              </div>
+
               <li class="skills-item">
 
-                  <div class="title-wrapper">
+                  <div class="title-wrapper" data-filter-item data-category="sprache">
                       <h5 class="h5">Deutsch</h5>
                       <data value="100">100%</data>
                   </div>
